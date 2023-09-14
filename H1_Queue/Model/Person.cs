@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace H1_Queue.Model
 {
     /// <summary>
-    /// Class 
+    /// This class creates a person with a semi-random name.
+    /// It combined the names from the 2 arrays, to create a ful name.
+    /// We use these names for our console outputs. 
     /// </summary>
     internal class Person
     {
