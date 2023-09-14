@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace H1_Queue.Model
 {
+    /// <summary>
+    /// Class 
+    /// </summary>
     internal class Person
     {
         internal readonly string[] firstNames = { "John", "Paul", "Ringo", "George", "Stephen", "Larry", "Scott", "Alexander", "Dennis", "Tyler" };
@@ -13,8 +16,8 @@ namespace H1_Queue.Model
         internal readonly string[] lastNames = { "Lennon", "McCartney", "Starr", "Harrison", "Anderson", "Moore", "Lee", "Thompson", "Clark", "Hill" };
 
         internal string firstName;
-        internal string lastName;
 
+        internal string lastName;
         internal string FirstName
         {
             get { return firstName; }
@@ -26,5 +29,12 @@ namespace H1_Queue.Model
             get { return lastName; }
             set { lastName = value; }
         }
+
+        public string FullName
+        {
+            get { return $"{firstName}  {lastName}"; }
+        }
+
+
     }
 }
