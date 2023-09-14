@@ -8,6 +8,6 @@ namespace H1_Queue.Model
 {
     internal class Person
     {
-
+        
     }
 }
