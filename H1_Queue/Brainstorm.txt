@@ -1,0 +1,4 @@
+Yordan and i decided to make a website queue system.
+If a website is overloaded with users, then it typically has a queue.
+The users will then have to wait for it to be their turn. 
+Once its their turn, then they get into the website and exit the queue.
